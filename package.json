@@ -1,0 +1,15 @@
+{
+  "name": "your-app",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron ."
+  },
+  "dependencies": {
+    "serialport": "*"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.29.2",
+    "electron-rebuild": "^0.2.3"
+  }
+}
